@@ -1,0 +1,14 @@
+.*sw*
+*~
+node_modules
+.DS_Store
+lib
+build
+coverage
+tst/snapshots/**/__diff_output__
+.out
+.idea
+*.iml
+integration/logs
+storybook-static
+src/versioning/version.ts

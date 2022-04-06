@@ -1,0 +1,108 @@
+.mediaRecorderWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 160px 0 0;
+    z-index: 1000;
+}
+
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.canvasVideoElement {
+    border: 1px solid rgba(8, 33, 67, 0.2);
+}
+
+.videoElement {
+    max-width: 739px;
+    max-height: 415px;
+}
+
+.videoElementDisplay {
+    max-width: 0px;
+}
+
+.mediaRecorderContentWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.videoElementCamera {
+    max-width: 0px;
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+}
+
+.settingHeadings {
+    font-family: Rubik, serif;
+    font-size: 28px;
+    line-height: 33px;
+    color: #082143;
+}
+
+.settingsLabel {
+    font-family: Rubik;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5B708F;
+}
+
+.settingsDevicesWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsDeviceWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.cameraPicker {
+    width: 340px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 2px solid #D6E4F8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 16px;
+    color: #082143;
+}
+
+.videoElementDisplayHide {
+    position: absolute;
+    width: 300px;
+}
+
+.settingsDeviceWrapper {
+    margin-top: 24px;
+}
+
+.settingsButtons-wrapper {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+@media (max-width: 600px) {
+    .settingsForm, .videoElement {
+        width: 300px;
+    }
+
+    .mediaRecorderWrapper {
+        margin: 30px 0;
+    }
+
+    .settingsButtons-wrapper button {
+        font-size: 12px;
+    }
+}
